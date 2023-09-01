@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('index/{name}/{age}',[PostController::class,'index'])->name('index');
+
+Route::get('post',function (){
+    return 'ddd';
+});

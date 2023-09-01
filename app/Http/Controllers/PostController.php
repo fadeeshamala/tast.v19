@@ -11,3 +11,4 @@ class PostController extends Controller
         return view('index', compact('name','age'));
     }
 }
+
